@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-right {
+    text-align: right;
+}
+.button-white {
+    color: black;
+    background-color: white;
+}
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.button-black {
+    color: white;
+    background-color: black;
+}
+.button-lilla {
+    color: white;
+    background-color: #7288DA;
+}
+.button-small {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+}
+header .headone {
+    padding: 10px 0;
+    color: white;
+    background-color: #255EE9;
+}
+header .headone nav ul>li>a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+header .headone .container .row {
+    align-items: center;
+}
+header .headone nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.header-bottom {
+    padding: 8vw 0;
+    background-color: #255EE9;
+    background-image: url('../img/jumbo.png');
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-bottom .jumbo>* {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+p {
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+}
+.titolo>h1 {
+    font-size: 2.5rem;
+}
+div.titolo{
+    text-align: center;
+}
+main>section {
+    padding: 40px 0;
+}
+main .testo2 {
+    padding: 40px;
+}
+main .item3 img {
+    width: 100%;
+}
+main>section:nth-child(even) {
+    background-color: #F5F5F5;
+}
+main h2 {
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+main .main-bottom>* {
+    margin: 40px;
+}
+main>section:last-child {
+    text-align: center;
+}
+footer {
+    background-color: #23272A;
+}
+main h3 {
+    font-size: 2rem;
+    padding-top: 40px;
+    background-image: url(../img/stars.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+footer .footer-top {
+    padding: 20px 0;
+}
+footer .flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+footer .footer-bottom {
+    padding-top: 20px;
+}
+footer .flex-container>* {
+    padding: 5px 10px;
+}
+footer hr {
+    border-color: white;
+}
